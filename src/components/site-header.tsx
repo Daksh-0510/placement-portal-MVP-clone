@@ -19,16 +19,16 @@ export function Wordmark({ className, textClassName }: { className?: string; tex
   return (
     <span className={cn("flex items-center gap-2.5", className)}>
       <img
-        src="/brand-logo.png"
-        alt="JSS University, Noida"
-        className="h-8 w-8 rounded-md object-contain shadow-xs border border-emerald-500/20 shrink-0"
+        src="/jssunilogo.jpg"
+        alt="JSS University"
+        className="h-10 w-10 rounded-md object-cover shrink-0"
       />
       <span className="flex flex-col text-left leading-none">
         <span className={cn("text-sm sm:text-base font-black tracking-tight text-white", textClassName)}>
           JSS University, Noida
         </span>
         <span className="text-[10px] sm:text-[11px] font-medium text-emerald-400/90 tracking-tight mt-0.5">
-          Student Career Hub <span className="opacity-75 font-normal">(Powered by CorporateDNA)</span>
+          Student Career Hub
         </span>
       </span>
     </span>
@@ -87,7 +87,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
         <Link
           to="/"
-          aria-label="CorporateDNA home"
+          aria-label="Student Career Hub home"
           className="-ml-2 rounded-lg px-2 py-1 transition-colors hover:bg-emerald-950/60"
         >
           <Wordmark />

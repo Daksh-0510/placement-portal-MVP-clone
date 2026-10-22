@@ -5,15 +5,15 @@ import { LegalPage, type LegalSection } from "@/components/legal-page";
 export const Route = createFileRoute("/tos")({
   head: () => ({
     meta: [
-      { title: "Terms of Service | CorporateDNA" },
+      { title: "Terms of Service | Student Career Hub" },
       {
         name: "description",
-        content: "The terms that apply when you use CorporateDNA, the employer intelligence platform.",
+        content: "The terms that apply when you use Student Career Hub, the employer intelligence platform.",
       },
-      { property: "og:title", content: "Terms of Service | CorporateDNA" },
+      { property: "og:title", content: "Terms of Service | Student Career Hub" },
       {
         property: "og:description",
-        content: "The rules and conditions for using CorporateDNA corporate audits.",
+        content: "The rules and conditions for using Student Career Hub corporate audits.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -26,13 +26,13 @@ const SECTIONS: LegalSection[] = [
   {
     heading: "Acceptance of these terms",
     body: [
-      "By accessing or using CorporateDNA, you agree to these Terms of Service. If you do not agree, please do not use the directory.",
+      "By accessing or using Student Career Hub, you agree to these Terms of Service. If you do not agree, please do not use the directory.",
     ],
   },
   {
     heading: "Who may use the service",
     body: [
-      "CorporateDNA is intended for job seekers, career changers and anyone researching potential employers for personal, non commercial purposes.",
+      "Student Career Hub is intended for job seekers, career changers and anyone researching potential employers for personal, non commercial purposes.",
     ],
   },
   {
@@ -58,7 +58,7 @@ const SECTIONS: LegalSection[] = [
   {
     heading: "Intellectual property",
     body: [
-      "The design, layout and original text of CorporateDNA are protected by applicable intellectual property laws. Company names and logos belong to their respective owners and are shown for identification only. Their display does not imply endorsement.",
+      "The design, layout and original text of Student Career Hub are protected by applicable intellectual property laws. Company names and logos belong to their respective owners and are shown for identification only. Their display does not imply endorsement.",
     ],
   },
   {
@@ -76,7 +76,7 @@ const SECTIONS: LegalSection[] = [
   {
     heading: "Limitation of liability",
     body: [
-      "To the fullest extent permitted by law, CorporateDNA and its operators will not be liable for any indirect, incidental, special or consequential damages, or for any loss arising from your reliance on information in the directory.",
+      "To the fullest extent permitted by law, Student Career Hub and its operators will not be liable for any indirect, incidental, special or consequential damages, or for any loss arising from your reliance on information in the directory.",
     ],
   },
   {
@@ -88,7 +88,7 @@ const SECTIONS: LegalSection[] = [
   {
     heading: "Contact",
     body: [
-      "Questions about these terms can be directed to the CorporateDNA team.",
+      "Questions about these terms can be directed to the Student Career Hub team.",
     ],
   },
 ];
@@ -99,7 +99,7 @@ function TermsPage() {
       eyebrow="Legal"
       title="Terms of Service"
       updated="October 19, 2026"
-      intro="These terms describe how you may use CorporateDNA, what you can expect from us, and the limits of the information we provide."
+      intro="These terms describe how you may use Student Career Hub, what you can expect from us, and the limits of the information we provide."
       sections={SECTIONS}
     />
   );

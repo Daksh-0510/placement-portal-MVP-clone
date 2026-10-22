@@ -5,15 +5,15 @@ import { LegalPage, type LegalSection } from "@/components/legal-page";
 export const Route = createFileRoute("/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy | CorporateDNA" },
+      { title: "Privacy Policy | Student Career Hub" },
       {
         name: "description",
-        content: "How CorporateDNA collects, uses and protects information when you browse the company directory.",
+        content: "How Student Career Hub collects, uses and protects information when you browse the company directory.",
       },
-      { property: "og:title", content: "Privacy Policy | CorporateDNA" },
+      { property: "og:title", content: "Privacy Policy | Student Career Hub" },
       {
         property: "og:description",
-        content: "How CorporateDNA handles information when you run a corporate audit.",
+        content: "How Student Career Hub handles information when you run a corporate audit.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
@@ -26,7 +26,7 @@ const SECTIONS: LegalSection[] = [
   {
     heading: "Information we collect",
     body: [
-      "CorporateDNA is a read only employer intelligence platform. You do not need an account to browse it, and we do not ask you for personal details such as your name, email address or ID number.",
+      "Student Career Hub is a read only employer intelligence platform. You do not need an account to browse it, and we do not ask you for personal details such as your name, email address or ID number.",
       "When you use the service, limited technical information may be processed automatically:",
       [
         "Basic request data such as browser type, device type, and the pages you visit.",
@@ -83,7 +83,7 @@ const SECTIONS: LegalSection[] = [
     heading: "Your choices and rights",
     body: [
       "Depending on where you live, you may have the right to access, correct or delete information about you, or to object to certain processing. Because we do not collect account details, most information we hold cannot be linked back to you personally.",
-      "If you believe a company profile contains inaccurate information about you, please contact the CorporateDNA team so it can be reviewed.",
+      "If you believe a company profile contains inaccurate information about you, please contact the Student Career Hub team so it can be reviewed.",
     ],
   },
   {
@@ -95,7 +95,7 @@ const SECTIONS: LegalSection[] = [
   {
     heading: "Contact",
     body: [
-      "Questions about this policy or about how information is handled can be directed to the CorporateDNA team.",
+      "Questions about this policy or about how information is handled can be directed to the Student Career Hub team.",
     ],
   },
 ];
@@ -106,7 +106,7 @@ function PrivacyPage() {
       eyebrow="Legal"
       title="Privacy Policy"
       updated="October 19, 2026"
-      intro="This policy explains what information CorporateDNA processes when you browse the company directory, why we process it, and the choices you have."
+      intro="This policy explains what information Student Career Hub processes when you browse the company directory, why we process it, and the choices you have."
       sections={SECTIONS}
     />
   );
